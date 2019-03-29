@@ -20,6 +20,7 @@ public class Pen {
         this.color = color;
     }
 
+
     public String write(String word) {
         if (!isWork()) {
             return "";
